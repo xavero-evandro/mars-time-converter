@@ -1,0 +1,29 @@
+{
+  "name": "billie",
+  "version": "1.0.0",
+  "description": "Billie Mars Time Converter",
+  "scripts": {
+    "start": "node -r esm src/index.js",
+    "watch": "nodemon -r esm src/index.js",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.8.7",
+    "babel-jest": "^25.1.0",
+    "eslint": "^6.8.0",
+    "jest": "^25.1.0",
+    "node-mocks-http": "^1.8.1",
+    "nodemon": "^2.0.2"
+  }
+}
